@@ -4,7 +4,7 @@
 }
 
 .warning {
-    background-color: brown;
+    background-color:rgb(128, 98, 0);
 }
 
 table {
@@ -13,7 +13,8 @@ table {
   overflow: hidden;
   margin: 12px 0;
   min-width: 300px;
-  background: #e7db56;
+  background: #56e7c0;
+  
 }
 
 .header-row {
@@ -26,3 +27,7 @@ th, td {
     margin: 5px 10px;
     padding: 6px;
 }
+
+tr:nth-child(even) {
+    background-color: #f1fffe;
+  }
